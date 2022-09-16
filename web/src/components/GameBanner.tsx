@@ -10,7 +10,7 @@ export default function GameBanner ({
   adsCount
 }: GameBannerProps) {
   return (
-    <a href="" className="relative rounded-lg overflow-hidden w-[204px] h-[272px]" >
+    <a href="" className="relative rounded-lg overflow-hidden w-52 h-[277px]" >
       <img src={bannerUrl} alt=""/>
 
       <div className="w-full pt-16 pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0">
